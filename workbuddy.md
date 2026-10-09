@@ -25,6 +25,10 @@
 > 以下为 2026-10-09（周五）17:15–17:21 的端到端**真实实测**记录：经 WorkBuddy 同款通道（Streamable HTTP JSON-RPC，`initialize → tools/call`）直连麦当劳官方 MCP Server `https://mcp.mcd.cn`（Bearer Token 鉴权），所有门店、菜单、券、金额均为服务端真实返回，金额已由"分"换算为"元"。
 > **全程未支付**：场景 1 创建的订单保持"待支付"并在场景 3 中取消，零资金成本。
 
+实测截图（WorkBuddy 运行 mcdrive-mate，输出选店决策卡，门店名已脱敏）：
+
+![WorkBuddy 实测：选店决策卡](assets/workbuddy-demo-storepick.png)
+
 ### 场景 1：晚高峰预约单（核心场景，17:15–17:18）
 
 ```text

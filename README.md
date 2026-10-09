@@ -5,6 +5,9 @@
 
 基于[麦当劳中国官方 MCP Server](https://github.com/M-China/mcd-mcp-server) 与[腾讯 WorkBuddy 智能体](https://www.workbuddy.cn)构建的开源 Skill。
 
+![WorkBuddy 实测：选店决策卡](assets/workbuddy-demo-storepick.png)
+*WorkBuddy 真实实测：输入"下班顺路"，输出按时耗排序的选店决策卡（门店名已脱敏）*
+
 ---
 
 ## 1. 项目介绍
@@ -106,10 +109,12 @@ Cherry Studio / Cursor / Trae / VSCode 等支持 Streamable HTTP 协议的客户
 │       ├── time-slot.md         # 时段 → 品类心智映射
 │       ├── store-pick.md        # 按总耗时排序的选店逻辑
 │       └── order-flow.md        # 下单确认/预约单/取消规范
-└── examples/                    # 示例对话实录
-    ├── commute-breakfast.md     # 通勤早餐 · 预约单
-    ├── drive-thru-pickup.md     # 深夜得来速
-    └── order-cancel-rebook.md   # 反悔与改约
+├── examples/                    # 示例对话实录
+│   ├── commute-breakfast.md     # 通勤早餐 · 预约单
+│   ├── drive-thru-pickup.md     # 深夜得来速
+│   └── order-cancel-rebook.md   # 反悔与改约
+└── assets/
+    └── workbuddy-demo-storepick.png  # WorkBuddy 实测截图（选店决策卡）
 ```
 
 ## 6. 设计原则（为什么值得用）
