@@ -6,7 +6,7 @@
 基于[麦当劳中国官方 MCP Server](https://github.com/M-China/mcd-mcp-server) 与[腾讯 WorkBuddy 智能体](https://www.workbuddy.cn)构建的开源 Skill。
 
 ![WorkBuddy 实测：选店决策卡](assets/workbuddy-demo-storepick.png)
-*WorkBuddy 真实实测：输入"下班顺路"，输出按时耗排序的选店决策卡（门店名已脱敏）*
+*WorkBuddy 真实实测：输入"下班前想找个热乎的地方吃饭"，输出按时耗排序的选店决策卡（门店名已脱敏）*
 
 ---
 
