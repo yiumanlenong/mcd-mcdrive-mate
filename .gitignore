@@ -1,0 +1,25 @@
+# ===== 凭证与敏感配置（绝对不能提交）=====
+.env
+.env.*
+mcp-config.json
+mcp-config.local.json
+*.token
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== 编辑器 / IDE =====
+.idea/
+.vscode/
+*.swp
+*~
+
+# ===== 运行产物 =====
+*.log
+__pycache__/
+node_modules/
+
+# ===== WorkBuddy 本地会话产物 =====
+.workbuddy/
